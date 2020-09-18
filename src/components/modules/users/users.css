@@ -1,0 +1,60 @@
+
+
+.infinite-scroll-component__outerdiv {width: 100%}
+.infinite-scroll-component {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.user{
+    background-color: #03E696;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.user img {
+    border-radius: 100%;
+}
+
+.userInfo h1 {
+    font-size: 25px;
+}
+
+.userInfo h2 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttonMoreInfo{    
+    height: 122px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.buttonMoreInfo button {    
+    padding: 5px;
+    border: none;
+    border-radius: 10%;
+    background-color: #0d4e2a;
+    color: #fff;
+}

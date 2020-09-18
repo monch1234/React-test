@@ -1,0 +1,26 @@
+.G-search-block{
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.G-search-input-block{
+    max-width: 250px;
+    width: 100%;
+    padding: 0 15px;
+}
+.G-search-input-block label{
+    display: block;
+    width: 100%;
+}
+.G-search-input-block input{
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 12px;
+}
+.G-search-input-block button{
+    max-width: 170px;
+    width: 100%;
+    height: 40px;
+}
